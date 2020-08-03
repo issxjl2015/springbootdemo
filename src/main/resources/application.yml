@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    name: springbootdemo # ���ݿ���
+    url: jdbc:mysql://localhost:3306/springbootdemo?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC # url
+    username: root # �û���
+    password: xujinlong@123! # ����
+    driver-class-name: com.mysql.jdbc.Driver #���ݿ���������
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml # ����ӳ���ļ�
+  type-aliases-package: com.issxjl2015.springbootdemo.bean # ����ʵ����
